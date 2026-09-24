@@ -41,7 +41,7 @@ def seconds_to_hms(seconds: int) -> str:
 
 def sum_digits(n: int) -> int:
     # TODO: реализовать
-    pass
+ return n // 100 + (n // 10) % 10 + n % 10
 
 
 # ============================================================
@@ -63,7 +63,14 @@ def sum_digits(n: int) -> int:
 
 def coin_change(amount: int) -> dict:
     # TODO: реализовать
-    pass
+    out {}
+ coins = [50, 10, 5, 10]
+50: amount // 50,
+10: (amount % 50) // 10,
+5: ((amount % 50) % 10) // 5,
+1: (((amount % 50) % 10) % 5) //1 
+out result 
+
 
 
 # ============================================================
