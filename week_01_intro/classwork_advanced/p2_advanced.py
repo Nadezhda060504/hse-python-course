@@ -4,6 +4,8 @@
 
 Решения писать здесь. Тесты — в конце файла.
 """
+from week_01_intro.classwork_base.p4_base import task_2_1
+
 
 # ============================================================
 # Задача 2.1. Время по секундам
@@ -19,8 +21,10 @@
 #            секунды = s % 60.
 
 def seconds_to_hms(seconds: int) -> str:
-    # TODO: реализовать
-    pass
+ hours = seconds // 3600
+ minutes = (seconds % 3600) // 60
+ seconds = seconds % 60
+ return f"{hours:02d}:{minutes:02d}:{seconds:02d}"
 
 
 # ============================================================
