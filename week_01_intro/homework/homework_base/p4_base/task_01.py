@@ -11,7 +11,12 @@
 
 def main():
     # TODO: реализовать
-    pass
+    length = 12
+    width = 5
+    s = lenght * width 
+    p = (length + width) * 2
+    print(s)
+    print(p)
 
 
 if __name__ == "__main__":
